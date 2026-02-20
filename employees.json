@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1710002,
+    "name": "Aryan Yadav",
+    "gender": "Male",
+    "department": "Software Engineer",
+    "salary": 50000,
+    "startDate": "15 Jan 2024",
+    "image": "Aryan.avif"
+  },
+  {
+    "id": 1710003,
+    "name": "Siddhartha Saxena",
+    "gender": "Male",
+    "department": "Software Engineer",
+    "salary": 53000,
+    "startDate": "20 Jan 2024",
+    "image": "Sidd.webp"
+  },
+  {
+    "id": 1710004,
+    "name": "Rishabh Jaiswal",
+    "gender": "Male",
+    "department": "Software Engineer",
+    "salary": 54000,
+    "startDate": "25 Jan 2024",
+    "image": "Rishabh_Jaiswal.jpg"
+  },
+  {
+    "id": 1710005,
+    "name": "Rishabh Pathak",
+    "gender": "Male",
+    "department": "Software Engineer",
+    "salary": 51000,
+    "startDate": "30 Jan 2024",
+    "image": "Rishabh_Pathak.webp"
+  },
+  {
+    "id": 1710006,
+    "name": "Ananya Sharma",
+    "gender": "Female",
+    "department": "Software Engineer",
+    "salary": 52000,
+    "startDate": "02 Feb 2024",
+    "image": "Ananya.webp"
+  },
+  {
+    "id": 1710007,
+    "name": "Priya Verma",
+    "gender": "Female",
+    "department": "Software Engineer",
+    "salary": 49500,
+    "startDate": "05 Feb 2024",
+    "image": "Priya.webp"
+  },
+  {
+    "id": 1710008,
+    "name": "Sneha Gupta",
+    "gender": "Female",
+    "department": "Software Engineer",
+    "salary": 51000,
+    "startDate": "08 Feb 2024",
+    "image": "Sneha.webp"
+  },
+  {
+    "id": 1710009,
+    "name": "Kavya Singh",
+    "profileImage": "Ananya.webp",
+    "gender": "Female",
+    "department": "Engineer",
+    "salary": "30000",
+    "startDate": "2026-02-16"
+  },
+  {
+    "id": 1710010,
+    "name": "Riya Mehta",
+    "profileImage": "Kavya.webp",
+    "gender": "Female",
+    "department": "Software Engineer",
+    "salary": "30000",
+    "startDate": "2024-02-17"
+  }
+]

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Add Employee</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<h2>Employee Payroll Form</h2>
+
+<form class="employee-form" action="/add" method="POST">
+
+    <!-- NAME -->
+    <label>Name</label>
+    <input type="text" name="name" required>
+
+
+    <!-- PROFILE IMAGE -->
+    <label>Profile Image</label>
+
+    <div class="profile-container">
+
+        <label>
+            <input type="radio" name="profileImage" value="Ananya.webp">
+            <img src="/images/Ananya.webp">
+        </label>
+
+        <label>
+            <input type="radio" name="profileImage" value="Aryan.avif">
+            <img src="/images/Yateesh.avif">
+        </label>
+
+        <label>
+            <input type="radio" name="profileImage" value="Kavya.webp">
+            <img src="/images/Kavya.webp">
+        </label>
+
+        <label>
+            <input type="radio" name="profileImage" value="Priya.webp">
+            <img src="/images/Rishabh_Pathak.webp">
+        </label>
+
+    </div>
+
+
+    <!-- GENDER -->
+    <label>Gender</label>
+
+    <div class="radio-group">
+        <label><input type="radio" name="gender" value="Male"> Male</label>
+        <label><input type="radio" name="gender" value="Female"> Female</label>
+    </div>
+
+
+    <!-- DEPARTMENT -->
+    <label>Department</label>
+
+    <div class="radio-group">
+        <label><input type="radio" name="department" value="HR"> HR</label>
+        <label><input type="radio" name="department" value="Sales"> Sales</label>
+        <label><input type="radio" name="department" value="Finance"> Finance</label>
+        <label><input type="radio" name="department" value="Software Engineer"> Software Engineer</label>
+    </div>
+
+
+    <!-- SALARY -->
+    <label>Salary</label>
+
+    <select name="salary">
+        <option value="30000">30000</option>
+        <option value="40000">40000</option>
+        <option value="50000">50000</option>
+        <option value="60000">60000</option>
+    </select>
+
+
+    <!-- DATE -->
+    <label>Start Date</label>
+    <input type="date" name="startDate">
+
+
+    <!-- NOTES -->
+    <label>Notes</label>
+    <textarea name="notes"></textarea>
+
+
+    <!-- BUTTONS -->
+    <div class="buttons">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <a href="/" class="cancel-link">Cancel</a>
+    </div>
+
+</form>
+
+</body>
+</html>
